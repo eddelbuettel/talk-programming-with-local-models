@@ -1,16 +1,19 @@
 
+# Agentic Statistical Programming with Local Models: A Reproducible Walk-Through
+
 ## Local models motivation
 
-- No per-token billing, no running meter, free to experiment
+- No per-token billing, no running meter. free to experiment
 - No intellectual property leakage 
 - No code leakage
 - Nobody else gets your data or code (cf recent controversy on math paper result)
 - Old-school autonomous computing (laptop without wifi ...)
+- Mix and match: do first tasks with (simpler, cheaper) local model, refine with frontier model
 
 ## Requirements
 
 - Bigger is of course better---but consumer GPUs sufficient
-- Our demo here uses a reasonably recent moderately decent workstation
+- Our demo here uses a reasonably recent moderately decent workstation: 16gb vram
 
 ## Open Model Choice
 
@@ -31,10 +34,14 @@
   
 ## Clients
 
-- OpenCode is nice, can be used with bubblewrap 
+- OpenCode is nice, can be used with bubblewrap, difference between v1 and v2 ?
 - pi is nice, have used with container
-- RStudio ?
-- Positron (and henve Code) ?
+- RStudio 
+- Positron (and henve Code) 
 - Emacs modes
+
+## Importance of AGENTS.md
+
+- Context is lost, so reset / preset with explicit instructions
 
 
