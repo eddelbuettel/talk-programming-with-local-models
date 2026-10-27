@@ -37,9 +37,10 @@
 
 - OpenCode is nice, can be used with bubblewrap, difference between v1 and v2 ?
 - pi is nice, have used with container
-- RStudio 
-- Positron (and henve Code) 
+- RStudio ('chat' works, code suggestions require paid service)
+- Positron ('chat' works, code suggestions require paid service)
 - Emacs modes
+- VS Code modes / plugins (not covered)
 
 ## Importance of AGENTS.md
 
