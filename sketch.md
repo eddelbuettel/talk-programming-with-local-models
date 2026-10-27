@@ -9,6 +9,7 @@
 - Nobody else gets your data or code (cf recent controversy on math paper result)
 - Old-school autonomous computing (laptop without wifi ...)
 - Mix and match: do first tasks with (simpler, cheaper) local model, refine with frontier model
+- Interface fully compatible with different hosting (e.g. I can also point to campus resource)
 
 ## Requirements
 
