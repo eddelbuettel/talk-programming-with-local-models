@@ -26,7 +26,7 @@ Details pending and to be finalized.
 
 ### Content
 
-A first [sketch][sketch.md] of ideas and content is available.
+A first [sketch][sketch] of ideas and content is available.
 
 ### Suggestions
 
@@ -38,3 +38,4 @@ Dirk Eddelbuettel
 
 [obs]: https://obsproject.com/
 [channel]: https://www.youtube.com/@DirkEddelbuettel/videos
+[sketch]: sketch.md
