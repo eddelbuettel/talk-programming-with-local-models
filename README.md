@@ -37,4 +37,4 @@ Use the 'Discussions' or 'Issues' here to propose topic
 Dirk Eddelbuettel
 
 [obs]: https://obsproject.com/
-[channel]: https://www.youtube.com/@DirkEddelbuettel
+[channel]: https://www.youtube.com/@DirkEddelbuettel/videos
