@@ -1,5 +1,5 @@
 
-## Agentic Statistical Programming with Local Models: A Reproducible Demo
+## Agentic Statistical Programming with Local Models: A Demo
 
 Local models are increasingly capable and powerful, and offer distinct
 advantages including (but not limited to) an increased ability to tinker,

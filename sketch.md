@@ -1,5 +1,5 @@
 
-# Agentic Statistical Programming with Local Models: A Reproducible Demo
+# Agentic Statistical Programming with Local Models: A Demo
 
 ## Local models motivation
 
