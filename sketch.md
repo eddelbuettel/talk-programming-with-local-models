@@ -49,4 +49,15 @@
 
 - Context is lost, so reset / preset with explicit instructions
 
+## Planned Time and Date
+
+- The tentative date is Wednesday, November 18, 2026 at 12:00h ("noon")
+Chicago/CST time corresponding to 10:00h San Franciso/PST, 13:00h New
+York/EST, 18:00h London/GMT, 19:00h Berlin/CET).
+- Delivery is planned to be via YouTube! using [OBS][obs].  A recording may
+be made available via [my channel][channel].
+
+[obs]: https://obsproject.com/
+[channel]: https://www.youtube.com/@DirkEddelbuettel/videos
+
 

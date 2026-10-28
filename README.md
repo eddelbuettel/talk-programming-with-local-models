@@ -15,7 +15,7 @@ language model platform Ollama utilizing frontends such as OpenCode and Pi.
 We will detail configurations and use, and demonstrate creation of simple
 (short enough) tasks
 
-The tentative date is Wednesday, November 11, 2026 at 12:00h ("noon")
+The tentative date is Wednesday, November 18, 2026 at 12:00h ("noon")
 Chicago/CST time corresponding to 10:00h San Franciso/PST, 13:00h New
 York/EST, 18:00h London/GMT, 19:00h Berlin/CET).
 
