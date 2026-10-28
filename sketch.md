@@ -3,11 +3,11 @@
 
 ## Local models motivation
 
-- No per-token billing, no running meter. free to experiment
+- No per-token billing, no running meter. free to experiment, no subscription, no lock-in
 - No intellectual property leakage 
-- No code leakage
+- No code leakage, no data leakage, no spying on activity
 - Nobody else gets your data or code (cf recent controversy on math paper result)
-- Old-school autonomous computing (laptop without wifi ...)
+- Supports old-school autonomous and off-line computing (laptop without wifi, remote area without broadband, ...)
 - Mix and match: do first tasks with (simpler, cheaper) local model, refine with frontier model
 - More control: 
   - your machine, your upgrades, your versions 
