@@ -19,10 +19,12 @@ The tentative date is Wednesday, November 18, 2026 at 12:00h ("noon")
 Chicago/CST time corresponding to 10:00h San Franciso/PST, 13:00h New
 York/EST, 18:00h London/GMT, 19:00h Berlin/CET).
 
-Delivery is planned to be via YouTube! using [OBS][obs].  A recording may be
-made available via [my channel][channel].
+Delivery is planned to be via YouTube! using [OBS][obs] at the URL
+https://youtube.com/live/esBxQaHsZu8?feature=share . 
 
-Details pending and to be finalized.
+We plan to also make a recording available via [my channel][channel].
+
+Details pending may change.
 
 ### Content
 
