@@ -20,7 +20,7 @@ Chicago/CST time corresponding to 10:00h San Franciso/PST, 13:00h New
 York/EST, 18:00h London/GMT, 19:00h Berlin/CET).
 
 Delivery is planned to be via YouTube! using [OBS][obs] at the URL
-https://youtube.com/live/esBxQaHsZu8?feature=share . 
+https://youtube.com/live/esBxQaHsZu8 . 
 
 We plan to also make a recording available via [my channel][channel].
 
