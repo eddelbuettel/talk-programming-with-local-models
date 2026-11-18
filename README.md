@@ -15,14 +15,14 @@ language model platform Ollama utilizing frontends such as OpenCode and Pi.
 We will detail configurations and use, and demonstrate creation of simple
 (short enough) tasks
 
-The tentative date is Wednesday, November 18, 2026 at 12:00h ("noon")
+This lecture took place Wednesday, November 18, 2026 at 12:00h ("noon")
 Chicago/CST time corresponding to 10:00h San Franciso/PST, 13:00h New
 York/EST, 18:00h London/GMT, 19:00h Berlin/CET).
 
-Delivery is planned to be via YouTube! using [OBS][obs] at the URL
-https://youtube.com/live/esBxQaHsZu8 . 
-
-We plan to also make a recording available via [my channel][channel].
+Delivery happed via YouTube! using [OBS][obs] at the URL
+https://youtube.com/live/esBxQaHsZu8. YouTube! says that video processing
+will commence 24h after the stream ended. Once a recording becomes available
+we will link to it here. It should also be available via [my channel][channel].
 
 Details pending may change.
 
