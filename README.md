@@ -24,11 +24,11 @@ https://youtube.com/live/esBxQaHsZu8. YouTube! says that video processing
 will commence 24h after the stream ended. Once a recording becomes available
 we will link to it here. It should also be available via [my channel][channel].
 
-Details pending may change.
-
 ### Content
 
-A first [sketch][sketch] of ideas and content is available.
+The slides [are available][slides] now.
+
+An initial first [sketch][sketch] of ideas and content is still available.
 
 ### Suggestions
 
@@ -41,3 +41,4 @@ Dirk Eddelbuettel
 [obs]: https://obsproject.com/
 [channel]: https://www.youtube.com/@DirkEddelbuettel/videos
 [sketch]: sketch.md
+[slides]: https://eddelbuettel.github.io/talk-programming-with-local-models/talk.pdf
