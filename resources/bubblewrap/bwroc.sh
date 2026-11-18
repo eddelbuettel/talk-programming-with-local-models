@@ -1,0 +1,32 @@
+#!/bin/bash
+bwrap \
+  --ro-bind /usr /usr \
+  --ro-bind /usr/local /usr/local \
+  --symlink usr/bin /bin \
+  --symlink usr/lib /lib \
+  --symlink usr/lib64 /lib64 \
+  --ro-bind /etc/ssl /etc/ssl \
+  --ro-bind /etc/resolv.conf /etc/resolv.conf \
+  --ro-bind $HOME/.gitconfig $HOME/.gitconfig \
+  --bind $HOME/.config/opencode $HOME/.config/opencode \
+  --bind $HOME/.cache/opencode $HOME/.cache/opencode \
+  --bind $HOME/.opencode $HOME/.opencode \
+  --bind $HOME/.local/share/opencode $HOME/.local/share/opencode \
+  --bind $HOME/.local/state/opencode $HOME/.local/state/opencode \
+  --ro-bind $HOME/git/littler/inst/examples $HOME/git/littler/inst/examples \
+  --ro-bind $HOME/.R/Makevars $HOME/.R/Makevars \
+  --ro-bind /etc/R/ /etc/R \
+  --ro-bind /etc/alternatives/ /etc/alternatives \
+  --bind /usr/local/lib/R/site-library /usr/local/lib/R/site-library \
+  --bind $HOME/lab $HOME/lab \
+  --proc /proc \
+  --dev /dev \
+  --tmpfs /tmp \
+  --bind $(pwd) $(pwd) \
+  --chdir $(pwd) \
+  --unshare-all \
+  --share-net \
+  --die-with-parent \
+  --setenv RAPIDAPI_KEY "${RAPIDAPI_KEY}" \
+  --setenv LUMEN_API_KEY "${LUMEN_API_KEY}" \
+  "$@"   # eg 'opencode2' or 'ollama launch opencode'

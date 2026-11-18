@@ -1,0 +1,4 @@
+[Service]
+Environment="OLLAMA_HOST=0.0.0.0"
+Environment="OLLAMA_KEEP_ALIVE=-1"
+Environment="OLLAMA_CONTEXT_LENGTH=131072"

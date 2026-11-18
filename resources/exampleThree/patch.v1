@@ -1,0 +1,39 @@
+diff -u fdaPDE.orig/src/FdaPDE.h fdaPDE/src/FdaPDE.h
+--- /home/edd/lab/rcppeigen/fdaPDE.orig/src/FdaPDE.h	2026-11-13 14:14:03.275500257 +0000
++++ /home/edd/lab/rcppeigen/fdaPDE/src/FdaPDE.h	2026-11-13 14:12:25.742631064 +0000
+@@ -10,6 +10,13 @@
+ 
+ #include <Rcpp.h>
+ 
++// Check Eigen version for conditional compilation
++#if defined(EIGEN_WORLD_VERSION) && defined(EIGEN_MAJOR_VERSION)
++#define EIGEN_EPOCH_VERSION ((EIGEN_WORLD_VERSION * 10000) + (EIGEN_MAJOR_VERSION * 100) + EIGEN_MINOR_VERSION)
++#else
++#define EIGEN_EPOCH_VERSION 0
++#endif
++
+ #include <stdint.h>
+ #include <iostream>
+ 
+
+diff -u fdaPDE.orig/src/FE_Assemblers_Solvers/Source/Kronecker_Product.cpp fdaPDE/src/FE_Assemblers_Solvers/Source/Kronecker_Product.cpp
+--- /home/edd/lab/rcppeigen/fdaPDE.orig/src/FE_Assemblers_Solvers/Source/Kronecker_Product.cpp	2026-06-01 07:10:59.000000000 +0000
++++ /home/edd/lab/rcppeigen/fdaPDE/src/FE_Assemblers_Solvers/Source/Kronecker_Product.cpp	2026-11-13 14:13:35.563401790 +0000
+@@ -100,8 +100,17 @@
+ 		Acurrent = Aouter[i];
+ 	}
+ 
++#if EIGEN_EPOCH_VERSION >= 50000
++	// Eigen 5.x+: MappedSparseMatrix removed, construct and populate directly
++	SpMat AB(ABr, ABc);
++	for (UInt k = 0; k < ABnz; ++k) {
++		AB.insert(ABouter[k], ABinner[k]) = ABvalues[k];
++	}
++#else
++	// Eigen 3.x: Use MappedSparseMatrix
+ 	Eigen::MappedSparseMatrix<Real, Eigen::ColMajor, UInt> ABM(ABr, ABc, ABnz, ABouter.data(), ABinner.data(), ABvalues.data());
+ 	SpMat AB(ABM);
++#endif
+ 
+ //	delete[] ABvalues;
+ //	delete[] ABinner;

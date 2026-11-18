@@ -1,0 +1,23 @@
+=== Patch for fdaPDE RcppEigen compatibility ===
+
+diff -u fdaPDE.orig/src/FdaPDE.h fdaPDE/src/FdaPDE.h
+
+diff -u fdaPDE.orig/src/FE_Assemblers_Solvers/Source/Kronecker_Product.cpp fdaPDE/src/FE_Assemblers_Solvers/Source/Kronecker_Product.cpp
+--- /home/edd/lab/rcppeigen/fdaPDE.orig/src/FE_Assemblers_Solvers/Source/Kronecker_Product.cpp	2026-06-01 07:10:59.000000000 +0000
++++ /home/edd/lab/rcppeigen/fdaPDE/src/FE_Assemblers_Solvers/Source/Kronecker_Product.cpp	2026-11-13 14:19:43.908958528 +0000
+@@ -100,8 +100,15 @@
+ 		Acurrent = Aouter[i];
+ 	}
+ 
++#if EIGEN_VERSION_AT_LEAST(5,0,0)
++	// Eigen 5.x+: MappedSparseMatrix removed, use Map<Eigen::SparseMatrix<> >
++	Eigen::Map<Eigen::SparseMatrix<Real,Eigen::ColMajor,UInt>, 1, Eigen::MapOptions<0>> ABM(ABouter.data(), ABinner.data(), ABvalues.data(), ABr, ABc, ABnz);
++	SpMat AB(ABM);
++#else
++	// Eigen 3.x/4.x: Use MappedSparseMatrix (which wraps Map<Eigen::SparseMatrix<> >)
+ 	Eigen::MappedSparseMatrix<Real, Eigen::ColMajor, UInt> ABM(ABr, ABc, ABnz, ABouter.data(), ABinner.data(), ABvalues.data());
+ 	SpMat AB(ABM);
++#endif
+ 
+ //	delete[] ABvalues;
+ //	delete[] ABinner;

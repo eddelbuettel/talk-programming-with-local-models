@@ -1,0 +1,11 @@
+--- fdaPDE.orig/src/FE_Assemblers_Solvers/Source/Kronecker_Product.cpp	2026-06-01 07:10:59.000000000 +0000
++++ fdaPDE/src/FE_Assemblers_Solvers/Source/Kronecker_Product.cpp	2026-11-14 17:59:23.186129046 +0000
+@@ -100,7 +100,7 @@
+ 		Acurrent = Aouter[i];
+ 	}
+ 
+-	Eigen::MappedSparseMatrix<Real, Eigen::ColMajor, UInt> ABM(ABr, ABc, ABnz, ABouter.data(), ABinner.data(), ABvalues.data());
++	Eigen::Map<Eigen::SparseMatrix<Real, Eigen::ColMajor, UInt>> ABM(ABr, ABc, ABnz, ABouter.data(), ABinner.data(), ABvalues.data());
+ 	SpMat AB(ABM);
+ 
+ //	delete[] ABvalues;
