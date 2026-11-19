@@ -20,9 +20,11 @@ Chicago/CST time corresponding to 10:00h San Franciso/PST, 13:00h New
 York/EST, 18:00h London/GMT, 19:00h Berlin/CET).
 
 Delivery happed via YouTube! using [OBS][obs] at the URL
-https://youtube.com/live/esBxQaHsZu8. YouTube! says that video processing
-will commence 24h after the stream ended. Once a recording becomes available
-we will link to it here. It should also be available via [my channel][channel].
+https://youtube.com/live/esBxQaHsZu8. A YouTube! recording is now available:
+
+[![Agentic Statistical Programming with Local Models Talk](https://img.youtube.com/vi/BeG5_AOmmzY/maxresdefault.jpg)](https://www.youtube.com/watch?v=BeG5_AOmmzY)
+
+It is also available via [my channel][channel].
 
 ### Content
 
