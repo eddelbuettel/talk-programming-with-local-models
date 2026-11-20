@@ -19,12 +19,13 @@ This lecture took place Wednesday, November 18, 2026 at 12:00h ("noon")
 Chicago/CST time corresponding to 10:00h San Franciso/PST, 13:00h New
 York/EST, 18:00h London/GMT, 19:00h Berlin/CET).
 
-Delivery happed via YouTube! using [OBS][obs] at the URL
-https://youtube.com/live/esBxQaHsZu8. A YouTube! recording is now available:
+Delivery happed via YouTube! using [OBS][obs]. A YouTube! recording is now
+available: click on the image below
 
 [![Agentic Statistical Programming with Local Models Talk](https://img.youtube.com/vi/BeG5_AOmmzY/maxresdefault.jpg)](https://www.youtube.com/watch?v=BeG5_AOmmzY)
 
-It is also available via [my channel][channel].
+or use the [the link](https://www.youtube.com/watch?v=BeG5_AOmmzY). It is
+also available via [my channel][channel].
 
 ### Content
 
