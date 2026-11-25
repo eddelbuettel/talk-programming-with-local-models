@@ -33,6 +33,10 @@ The slides [are available][slides] now.
 
 An initial first [sketch][sketch] of ideas and content is still available.
 
+### Updates
+
+- [2026-11-25][2026-11-25] on running inkling-2-mini in the 16gb setup
+
 ### Suggestions
 
 Use the 'Discussions' or 'Issues' here to propose topic
@@ -45,3 +49,4 @@ Dirk Eddelbuettel
 [channel]: https://www.youtube.com/@DirkEddelbuettel/videos
 [sketch]: sketch.md
 [slides]: https://eddelbuettel.github.io/talk-programming-with-local-models/talk.pdf
+[2026-11-25]: update_2026-11-25.md
